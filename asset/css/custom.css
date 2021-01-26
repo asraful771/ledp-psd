@@ -303,4 +303,49 @@ a{text-decoration: none;}
 /* *********************************************************************
                         testimonial end
 ************************************************************************/
-/*  */
+/* ********************************************************************
+                            subscribe start
+************************************************************************/
+.subscribe{
+    background: #56ab2f;
+}
+.form input{
+    background:#56ab2f;
+    
+    font-size: 14px;
+    border:1px solid #fff;
+    padding:5px;
+    min-width:250px;
+}
+.form input::placeholder{
+    color:#fff;
+}
+.submit-btn{
+    background: #fff;
+    border:4px solid #9bc887 !important;
+    padding:3px 8px  !important;
+}
+/* ********************************************************************
+                            subscribe End
+************************************************************************/
+/* ******************************************************************
+                                footer start
+*******************************************************************/
+.footer{
+    background:#1e1d1d;
+}
+.footer-card{
+    background:transparent !important;
+    border:none !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    min-width:250px !important;
+    
+}
+.fa-angle-right{
+    color:#56ab2f;
+}
+
+/* ******************************************************************
+                                footer start
+*******************************************************************/
