@@ -251,3 +251,56 @@ a{text-decoration: none;}
 /* *************************************************************************
                         inporteent fact end
 ****************************************************************************/
+/* ***********************************************************************
+                        blog start
+************************************************************************/
+.card-img{
+    height:260px !important;
+}
+
+.news-btn{
+    border:1px solid #56ab2f;
+}
+.news-btn:hover{
+    background: #56ab2f;
+    color:#fff;
+}
+/* ***********************************************************************
+                        blog end
+************************************************************************/
+/* *********************************************************************
+                        testimonial start
+************************************************************************/
+.testimonial{
+    background:url(../img/testmonial-bg.png);
+}
+.test-card{
+    background:transparent !important;
+}
+.card-top{
+    height:60px;
+}
+.test-card{
+    /* border-image:url(../img/border.png) 30% round; */
+    border:4px solid #ff0000;
+}
+.test-card-img{
+    width:100px !important;
+    height:100px !important;
+    position: absolute !important;
+    left:35% !important;
+    top:0 !important;
+
+}
+.test-card-body{
+    background: #fff;
+    padding-top:20% !important;
+    border-image-source:url(../img/border.png);
+    border-image-slice:10 !important;
+}
+
+
+/* *********************************************************************
+                        testimonial end
+************************************************************************/
+/*  */
