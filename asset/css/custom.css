@@ -1,0 +1,253 @@
+/* ***********************************************************
+Date: 21/janu/2021
+project name: Web design & development
+Author name: LEDP
+devolaper: Asrafuzzaman
+
+***************************************************************/
+/* ------------------------------------------------------------ */
+/* ------------------------------------------------------------ */
+/* *************************************************************
+                        common css start
+**************************************************************** */
+
+*, body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+ul{list-style-type: none; margin:0;padding:0;}
+a{text-decoration: none;}
+
+
+.f-bg{background:#56ab2f;}
+.t-color{color:#56ab2f;}
+
+.font-s{
+    font-size:14px;
+}
+
+
+
+/* ***************************************************************
+                        common css end
+*******************************************************************/
+
+
+/* ******************************************************************
+                        header css start 
+**/
+
+
+.header{
+    width:90%;
+    height:6vh;
+    margin: auto;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    font-size: 14px;
+}
+.left-top li {
+    padding-left:10px;
+    
+}
+.left-top li:first-child {
+    padding-left:0;
+    
+}
+.left-top li a{
+    color:#fff;
+    
+}
+.right-top li{
+    padding-right: 10px;
+}
+.right-top li:last-child{
+    padding-right:0;
+}
+.right-top li:first-child :after{
+    content:"|";
+    color:#fff;
+    padding-left: 10px;
+}
+.right-top li a{
+    color:#fff;
+    text-transform:capitalize;
+}
+
+
+.f-right{
+    margin-left:50%;
+}
+
+/* ******************************************************************
+                        header css end 
+***********************************************************************/
+
+
+
+
+
+/* **********************************************************************
+                        slider start
+***************************************************************************/
+
+.caro-text{
+    text-align:left;
+    top:40%;
+    left:55%;
+}
+.caro-text p{
+    font-size: 12px;;
+}
+.caro-view, .caro-read{
+    border-radius: 0;
+    font-size: 14px;;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+.caro-read{
+    border:1px solid #56ab2f;
+}
+.caro-view{
+    color:#fff;
+    border:1px solid #56ab2f;
+}
+.caro-view:hover{
+    background: #fff;
+    color:#000;
+}
+.caro-read:hover{
+    background: #56ab2f;
+    color:#fff;
+}
+
+
+/* **************************************************************************
+                            slider end
+*************************************************************************** */
+
+/* ********************************************************************
+                        about start
+*************************************************************************/
+
+.card-title{
+    font-weight:700;
+}
+.card-text{
+    font-size: 12px;
+    text-align:justify;
+
+}
+
+.signatuer{
+    font-family: 'Pacifico', cursive;
+    padding: 0;
+    margin-top:20px;
+}
+
+.position{
+    top:100px;
+    height:330px;
+}
+
+/* ********************************************************************
+                        about end
+*************************************************************************/
+
+/* **************************************************************************
+                        course start 
+*****************************************************************************/
+.cour-p{font-size:12px;}
+.card-text{
+    font-size: 14px;
+}
+
+.card-bottom{
+   border-top:1px solid #ddd;
+}
+.card-bottom li{
+    padding:5px;
+}
+.card-bottom li:nth-child(2){
+    border-right:1px solid #ddd;
+    border-left:1px solid #ddd;
+    padding:5px 30px 0 30px;
+    background: #56ab2f;
+}
+
+.browse{
+    border:1px solid #56ab2f;
+}
+.browse:hover{
+    color:#fff;
+    background:#56ab2f;
+}
+.owl-carousel .owl-nav .owl-prev,
+.owl-carousel .owl-nav .owl-next{
+    position:absolute;
+    top:40%;
+    font-size: 30px;
+}
+.owl-carousel .owl-nav .owl-prev{
+    left:-3%;
+}
+.owl-carousel .owl-nav .owl-next{
+    right:-3%;
+}
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: transparent !important; 
+    color: #56ab2f !important; 
+    text-decoration: none !important; 
+}
+.owl-carousel .owl-nav button.owl-next:focus{
+	border: none !important;
+	outline: none !important; 
+}
+.owl-carousel .owl-nav button.owl-prev:focus{
+	border: none !important;
+	outline: none !important; 
+}
+.owl-dot{
+    display: none !important;
+}
+
+
+/* **************************************************************************
+                        course end 
+*****************************************************************************/
+
+
+/* **************************************************************************
+                        inporteent fact start
+*****************************************************************************/
+#facts{
+    background:url(../img/mid-back.png);
+    background-attachment: fixed;
+
+}
+.facts .btn{
+    border:1px solid #fff;
+    color:#fff;
+    font-size:14px;
+
+}
+.facts .btn:hover{
+   background: #fff;
+   color:#56ab2f;
+    
+}
+.facts-dis{
+    font-size:14px;
+    
+}
+
+/* *************************************************************************
+                        inporteent fact end
+****************************************************************************/
