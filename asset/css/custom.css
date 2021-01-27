@@ -353,6 +353,14 @@ a{text-decoration: none;}
 .footer-bottom{
     border-top:1px solid #56ab2f;
 }
+.social-icon li{
+   padding:5px !important; 
+}
+.social-icon li a{
+    border:1px solid #fff !important;
+    padding:5px !important;
+    border-radius:50% !important;
+}
 /* ******************************************************************
                                 footer start
 *******************************************************************/
