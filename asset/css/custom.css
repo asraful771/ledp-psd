@@ -345,7 +345,14 @@ a{text-decoration: none;}
 .fa-angle-right{
     color:#56ab2f;
 }
-
+.album-1 img{
+    width:80px !important;
+    height:80px !important;
+    padding:4px !important;
+}
+.footer-bottom{
+    border-top:1px solid #56ab2f;
+}
 /* ******************************************************************
                                 footer start
 *******************************************************************/
