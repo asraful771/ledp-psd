@@ -40,7 +40,9 @@ a{text-decoration: none;}
 /* ******************************************************************
                         header css start 
 **/
-
+#header{
+    position:sticky!important;
+}
 
 .header{
     width:90%;
@@ -80,8 +82,8 @@ a{text-decoration: none;}
 }
 
 
-.f-right{
-    margin-left:50%;
+.f-left{
+    margin-right:50% !important;
 }
 
 /* ******************************************************************
@@ -152,11 +154,24 @@ a{text-decoration: none;}
     margin-top:20px;
 }
 
-.position{
+/* .position{
     top:100px;
     height:330px;
+} */
+.principal{
+    background: url(../img/face-back.png);
+    height:280px;
+    margin-left:100px!important;
 }
-
+.principal img{
+    height:250px;
+    position: absolute;
+    top:70px;
+    margin-left:-60px !important;
+}
+.signatur{
+    width:150px;
+}
 /* ********************************************************************
                         about end
 *************************************************************************/
@@ -322,13 +337,17 @@ a{text-decoration: none;}
 .form input::placeholder{
     color:#fff;
 }
+.email:focus{
+	border: 1px solid #fff;
+	outline: none;
+}
 .submit-btn{
     background: #fff;
     border:4px solid #9bc887 !important;
     padding:3px 8px  !important;
 }
 /* ********************************************************************
-                            subscribe End
+                         CTa End
 ************************************************************************/
 /* ******************************************************************
                                 footer start
@@ -356,11 +375,73 @@ a{text-decoration: none;}
     border-top:1px solid #56ab2f;
 }
 .social-icon li{
-    border:1px solid #fff !important;
-    padding:5px !important;
+    padding:5px;
+}
+.social-icon li a{
+    font-size:14px;
+    color:#fff !important;
+    padding:8px 10px !important;
+    border:1px solid #9F9D9D !important;
     border-radius:50% !important;
+
+}
+.social-icon li:hover a{
+    color:#56ab2f !important;
 }
 
+
 /* ******************************************************************
-                                footer start
+                                footer end
+*******************************************************************/
+/* ****************************************************************
+--------------------------------------------------------------------
+                            Home page End
+ ---------------------------------------------------------------------
+********************************************************************/
+
+
+
+
+/* ***************************************************************
+--------------------------------------------------------------------
+                         About page start    
+--------------------------------------------------------------------
+*******************************************************************/
+
+
+
+/* ***************************************************************
+                    about section start
+*******************************************************************/
+.about{
+    background:url(../img/ab-header-bg.png);
+}
+.ab-link li{
+    padding-left:8px !important;
+}
+.ab-link .home::after {
+    content:"/";
+    padding-left:8px
+}
+.ab-link li a:hover{
+    color:#56ab2f !important;
+}
+/* ***************************************************************
+                    about section end
+*******************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ***************************************************************
+                         about page start    
 *******************************************************************/
