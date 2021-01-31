@@ -41,7 +41,7 @@ a{text-decoration: none;}
                         header css start 
 **/
 #header{
-    position:sticky!important;
+    position:!important;
 }
 
 .header{

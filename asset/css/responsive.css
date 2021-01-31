@@ -3,7 +3,7 @@
         display: none;
     }
     .f-left {
-        margin-right: 66% !important;
+        margin-right: 50% !important;
     }
     #about .row{
         margin:0 !important;
@@ -15,4 +15,20 @@
         width:60%;
         margin: 0 auto !important;
     }
+    .fact-first{
+        text-align: center !important;
+    }
+    .logo{
+        text-align: center !important;
+    }
+    .footer-link{
+       
+        margin-top:20px !important;
+    }
+  .support{
+      margin-top:20px !important;
+  }
+  .album{
+      margin-top:20px !important;
+  }
 }
