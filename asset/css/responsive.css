@@ -8,27 +8,34 @@
     #about .row{
         margin:0 !important;
     }
-    #footer .first-row{
+    #footer .footer-row{
         display: flex !important;
         align-items: center !important;
         justify-content: center !important;
-        width:60%;
+        width:100%;
         margin: 0 auto !important;
+        text-align: center !important;
     }
+    .support ul{
+        text-align: left !important;
+    }
+
     .fact-first{
         text-align: center !important;
     }
     .logo{
         text-align: center !important;
     }
-    .footer-link{
-       
-        margin-top:20px !important;
-    }
-  .support{
-      margin-top:20px !important;
-  }
-  .album{
-      margin-top:20px !important;
-  }
+   .footer-bottom{
+       text-align: center !important;
+   }
+   .footer-bottom .copy-right{
+       padding-bottom: 0 !important;
+   }
+    .footer-bottom .design{
+       padding: 0 !important;
+   }
+   .footer-bottom .social-icon{
+       justify-content: center !important;
+   }
 }
