@@ -27,7 +27,7 @@ a{text-decoration: none;}
 .t-color{color:#56ab2f;}
 
 .font-s{
-    font-size:14px;
+    font-size:14px !important;
 }
 
 
@@ -430,12 +430,20 @@ a{text-decoration: none;}
                     about section end
 *******************************************************************/
 
+/* ***********************************************************
+                        teacher section start
+****************************************************************/
+.sub-title{
+    border-bottom: 1px solid #56ab2f !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
 
 
 
-
-
-
+/* ***********************************************************
+                        teacher section end
+****************************************************************/
 
 
 
