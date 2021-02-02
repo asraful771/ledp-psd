@@ -497,7 +497,7 @@ a{text-decoration: none;}
 ***********************course details pages start *****************
 ******************************************************* */
 
-/************** corurse start ****************  */
+/************** corurse  features start ****************  */
 .course-head{
     position:relative;
     
@@ -537,10 +537,47 @@ a{text-decoration: none;}
 .course-img img{
     height:410px !important;
 }
+.course-instructor-l li{
+    padding:5px;
+    
+}
+.course-instructor-l li a{
+    color:#281816!important;
+    padding:5px 8px;
+    border:1px solid #ddd !important;
+    border-radius: 50% !important;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    -ms-border-radius: 50% !important;
+    -o-border-radius: 50% !important;
+}
+.course-instructor-l li a:hover{
+    color:#56ab2f !important;
+}
+.card-col{
+    width:10% !important;
+}
 
 
-/* ************course end ******************* */
+/* ************course  features end ******************* */
 
+/* ******************* courses comment  start ************** */
+.comment-row{
+    width:70%;
+}
+.mid-row{
+    width:92% !important;
+}
+
+.mid-img img{
+   
+    border-top:5px solid #000 !important;
+    border-left: 5px solid #000 !important;
+}
+/* .mid-img {
+    background:#000 !important; 
+} */
+/* ********************courses comment End ****************** */
 
 /* **************************************************
 ***********************course details pages end ****************
