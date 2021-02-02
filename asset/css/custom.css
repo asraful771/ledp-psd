@@ -30,6 +30,9 @@ a{text-decoration: none;}
     font-size:14px !important;
 }
 
+.about, .course, .contact, .teacher, .error{
+    background:url(../img/ab-header-bg.png);
+}
 
 
 /* ***************************************************************
@@ -40,9 +43,7 @@ a{text-decoration: none;}
 /* ******************************************************************
                         header css start 
 **/
-#header{
-    position:!important;
-}
+
 
 .header{
     width:90%;
@@ -234,9 +235,9 @@ a{text-decoration: none;}
 }
 
 
-/* **************************************************************************
+/* *****************************************************
                         course end 
-*****************************************************************************/
+**************************************************/
 
 
 /* **************************************************************************
@@ -313,7 +314,6 @@ a{text-decoration: none;}
     border:20px solid transparent;
     border-image:url(../img/border.png) 55% round;
     border-top:none;
-    
 }
 
 
@@ -413,16 +413,15 @@ a{text-decoration: none;}
 /* ***************************************************************
                     about section start
 *******************************************************************/
-.about{
-    background:url(../img/ab-header-bg.png);
-}
+
 .ab-link li{
     padding-left:8px !important;
 }
-.ab-link .home::after {
+.ab-link li::after {
     content:"/";
     padding-left:8px
 }
+
 .ab-link li a:hover{
     color:#56ab2f !important;
 }
@@ -431,25 +430,112 @@ a{text-decoration: none;}
 *******************************************************************/
 
 /* ***********************************************************
-                        teacher section start
+                       our teacher section start
 ****************************************************************/
-.sub-title{
-    border-bottom: 1px solid #56ab2f !important;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
+
+.our-teacher .owl-item img{
+   
+
+}
+.our-teacher .card{
+    border:1px solid #56ab2f;
+    width:50% !important;
+   
+}
+
+.professor{
+    position: relative !important ;
+}
+.professor::after{
+    content:"";
+    position: absolute !important;
+    width:218px;
+    height:1px;
+    background: #56ab2f;
+    top:30px;
+    left:-20px;
+
 }
 
 
-
 /* ***********************************************************
-                        teacher section end
+                       our teacher section end
 ****************************************************************/
 
+/* **********************************************************
+                        massage section start
+*************************************************************/
+.message img{
+    float:right !important;
+    padding:10px !important;
+    margin-right:450px;
+    margin-top:70px;
+    height:300px !important;
+    padding-left: 30px !important;
+   
+}
+.message{
+    background: url(../img/face-back.png) no-repeat;
+    background-position: right top;
+    text-align: justify !important;
+    background-size:59%;
+}
 
 
-
+/* **********************************************************
+                        massage section end
+*************************************************************/
 
 
 /* ***************************************************************
-                         about page start    
+                         about page end    
 *******************************************************************/
+
+/* ----------------------------------------------------------------- */
+
+/* **************************************************
+***********************course details pages start *****************
+******************************************************* */
+
+/************** corurse start ****************  */
+.course-head{
+    position:relative;
+    
+}
+.course-head::before{
+    content: "";
+    position:absolute;
+    width:50px;
+    height:2px;
+    background:#56ab2f;
+    
+}
+.courese-card{
+    border:1px solid #56ab2f;
+}
+.Course-features{
+    background:#56ab2f;
+    padding:10px !important;
+}
+.course-table{
+    text-transform:capitalize;
+}
+.course-btn{
+    border:1px solid #56ab2f;
+    padding:10px !important;
+}
+.course-btn:hover{
+    background: #56ab2f;
+    color:#fff;
+}
+.course-img img{
+    height:400px !important;
+}
+
+
+/* ************course end ******************* */
+
+
+/* **************************************************
+***********************course details pages end ****************
+******************************************************* */

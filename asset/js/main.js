@@ -1,4 +1,4 @@
-// 
+// owl
 $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
@@ -16,6 +16,27 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+				// owl carousel end
+ 			// owl carousel 2 start
+$('.our-teacher').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    navText:['<i class="fa fa-chevron-left" aria-hidden="true"></i>','<i class="fa fa-chevron-right" aria-hidden="true"></i>'],
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
+})
+         // owl carousel 2 end.
+
 //  album js
 $(document).ready(function() {
 	$('.popup-gallery').magnificPopup({
