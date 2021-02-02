@@ -520,6 +520,9 @@ a{text-decoration: none;}
 .course-table{
     text-transform:capitalize;
 }
+.course-icon{
+    color:#56ab2f;
+}
 .course-btn{
     border:1px solid #56ab2f;
     padding:10px !important;
@@ -528,8 +531,11 @@ a{text-decoration: none;}
     background: #56ab2f;
     color:#fff;
 }
+.course-img{
+    padding-left: 15px !important;
+}
 .course-img img{
-    height:400px !important;
+    height:410px !important;
 }
 
 
