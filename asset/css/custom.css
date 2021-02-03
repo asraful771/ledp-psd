@@ -1,3 +1,4 @@
+Skip to content Using Gmail with screen readers Enable desktop notifications for Gmail. OK No thanks Meet New meeting Join a meeting Hangouts 1 of 32 Document from Asrafuzzaman Inbox alom mia Attachments 11:55 AM (6 minutes ago) to me custom.css Attachments area
 /* ***********************************************************
 Date: 21/janu/2021
 project name: Web design & development
@@ -11,27 +12,46 @@ devolaper: Asrafuzzaman
                         common css start
 **************************************************************** */
 
-*, body{
-    margin:0;
-    padding:0;
+*,
+body {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: 'Open Sans', sans-serif;
 }
-ul{list-style-type: none; margin:0;padding:0;}
-a{text-decoration: none;}
 
-
-.f-bg{background:#56ab2f;}
-.t-color{color:#56ab2f;}
-
-.font-s{
-    font-size:14px !important;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-.about, .course, .contact, .teacher, .error{
-    background:url(../img/ab-header-bg.png);
+a {
+    text-decoration: none;
+}
+
+
+.f-bg {
+    background: #56ab2f;
+}
+
+.t-color {
+    color: #56ab2f;
+}
+
+.font-s {
+    font-size: 14px !important;
+}
+
+.about,
+.course,
+.contact,
+.teacher,
+.error {
+    background: url(../img/ab-header-bg.png);
 }
 
 
@@ -45,46 +65,53 @@ a{text-decoration: none;}
 **/
 
 
-.header{
-    width:90%;
-    height:6vh;
+.header {
+    width: 90%;
+    height: 6vh;
     margin: auto;
-    display:flex;
-    justify-content:space-between;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     font-size: 14px;
 }
+
 .left-top li {
-    padding-left:10px;
-    
+    padding-left: 10px;
+
 }
+
 .left-top li:first-child {
-    padding-left:0;
-    
+    padding-left: 0;
+
 }
-.left-top li a{
-    color:#fff;
-    
+
+.left-top li a {
+    color: #fff;
+
 }
-.right-top li{
+
+.right-top li {
     padding-right: 10px;
 }
-.right-top li:last-child{
-    padding-right:0;
+
+.right-top li:last-child {
+    padding-right: 0;
 }
-.right-top li:first-child :after{
-    content:"|";
-    color:#fff;
+
+.right-top li:first-child :after {
+    content: "|";
+    color: #fff;
     padding-left: 10px;
 }
-.right-top li a{
-    color:#fff;
-    text-transform:capitalize;
+
+.right-top li a {
+    color: #fff;
+    text-transform: capitalize;
 }
 
 
-.f-left{
-    margin-right:50% !important;
+.f-left {
+    margin-right: 50% !important;
 }
 
 /* ******************************************************************
@@ -99,36 +126,45 @@ a{text-decoration: none;}
                         slider start
 ***************************************************************************/
 
-.caro-text{
-    text-align:left;
-    top:40%;
-    left:55%;
+.caro-text {
+    text-align: left;
+    top: 40%;
+    left: 55%;
 }
-.caro-text p{
-    font-size: 12px;;
+
+.caro-text p {
+    font-size: 12px;
+    ;
 }
-.caro-view, .caro-read{
+
+.caro-view,
+.caro-read {
     border-radius: 0;
-    font-size: 14px;;
+    font-size: 14px;
+    ;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     -ms-border-radius: 0;
     -o-border-radius: 0;
 }
-.caro-read{
-    border:1px solid #56ab2f;
+
+.caro-read {
+    border: 1px solid #56ab2f;
 }
-.caro-view{
-    color:#fff;
-    border:1px solid #56ab2f;
+
+.caro-view {
+    color: #fff;
+    border: 1px solid #56ab2f;
 }
-.caro-view:hover{
+
+.caro-view:hover {
     background: #fff;
-    color:#000;
+    color: #000;
 }
-.caro-read:hover{
+
+.caro-read:hover {
     background: #56ab2f;
-    color:#fff;
+    color: #fff;
 }
 
 
@@ -140,39 +176,43 @@ a{text-decoration: none;}
                         about start
 *************************************************************************/
 
-.card-title{
-    font-weight:700;
+.card-title {
+    font-weight: 700;
 }
-.card-text{
+
+.card-text {
     font-size: 12px;
-    text-align:justify;
+    text-align: justify;
 
 }
 
-.signatuer{
+.signatuer {
     font-family: 'Pacifico', cursive;
     padding: 0;
-    margin-top:20px;
+    margin-top: 20px;
 }
 
 /* .position{
     top:100px;
     height:330px;
 } */
-.principal{
+.principal {
     background: url(../img/face-back.png);
-    height:280px;
-    margin-left:100px!important;
+    height: 280px;
+    margin-left: 100px !important;
 }
-.principal img{
-    height:250px;
+
+.principal img {
+    height: 250px;
     position: absolute;
-    top:70px;
-    margin-left:-60px !important;
+    top: 70px;
+    margin-left: -60px !important;
 }
-.signatur{
-    width:150px;
+
+.signatur {
+    width: 150px;
 }
+
 /* ********************************************************************
                         about end
 *************************************************************************/
@@ -180,57 +220,70 @@ a{text-decoration: none;}
 /* **************************************************************************
                         course start 
 *****************************************************************************/
-.cour-p{font-size:12px;}
-.card-text{
+.cour-p {
+    font-size: 12px;
+}
+
+.card-text {
     font-size: 14px;
 }
 
-.card-bottom{
-   border-top:1px solid #ddd;
+.card-bottom {
+    border-top: 1px solid #ddd;
 }
-.card-bottom li{
-    padding:5px;
+
+.card-bottom li {
+    padding: 5px;
 }
-.card-bottom li:nth-child(2){
-    border-right:1px solid #ddd;
-    border-left:1px solid #ddd;
-    padding:5px 30px 0 30px;
+
+.card-bottom li:nth-child(2) {
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    padding: 5px 30px 0 30px;
     background: #56ab2f;
 }
 
-.browse{
-    border:1px solid #56ab2f;
+.browse {
+    border: 1px solid #56ab2f;
 }
-.browse:hover{
-    color:#fff;
-    background:#56ab2f;
+
+.browse:hover {
+    color: #fff;
+    background: #56ab2f;
 }
+
 .owl-carousel .owl-nav .owl-prev,
-.owl-carousel .owl-nav .owl-next{
-    position:absolute;
-    top:40%;
+.owl-carousel .owl-nav .owl-next {
+    position: absolute;
+    top: 40%;
     font-size: 30px;
 }
-.owl-carousel .owl-nav .owl-prev{
-    left:-3%;
+
+.owl-carousel .owl-nav .owl-prev {
+    left: -3%;
 }
-.owl-carousel .owl-nav .owl-next{
-    right:-3%;
+
+.owl-carousel .owl-nav .owl-next {
+    right: -3%;
 }
+
 .owl-theme .owl-nav [class*=owl-]:hover {
-    background: transparent !important; 
-    color: #56ab2f !important; 
-    text-decoration: none !important; 
+    background: transparent !important;
+    color: #56ab2f !important;
+    text-decoration: none !important;
 }
-.owl-carousel .owl-nav button.owl-next:focus{
-	border: none !important;
-	outline: none !important; 
+
+.owl-carousel .owl-nav button.owl-next:focus {
+    border: none !important;
+    outline: none !important;
 }
-.owl-carousel .owl-nav button.owl-prev:focus{
-	border: none !important;
-	outline: none !important; 
+
+.owl-carousel .owl-nav button.owl-prev:focus {
+    border: none !important;
+    outline: none !important;
 }
-.owl-dot{
+
+.owl-dot {
     display: none !important;
 }
 
@@ -243,25 +296,28 @@ a{text-decoration: none;}
 /* **************************************************************************
                         inporteent fact start
 *****************************************************************************/
-#facts{
-    background:url(../img/mid-back.png);
+#facts {
+    background: url(../img/mid-back.png);
     background-attachment: fixed;
 
 }
-.facts .btn{
-    border:1px solid #fff;
-    color:#fff;
-    font-size:14px;
+
+.facts .btn {
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 14px;
 
 }
-.facts .btn:hover{
-   background: #fff;
-   color:#56ab2f;
-    
+
+.facts .btn:hover {
+    background: #fff;
+    color: #56ab2f;
+
 }
-.facts-dis{
-    font-size:14px;
-    
+
+.facts-dis {
+    font-size: 14px;
+
 }
 
 /* *************************************************************************
@@ -270,50 +326,57 @@ a{text-decoration: none;}
 /* ***********************************************************************
                         blog start
 ************************************************************************/
-.card-img{
-    height:260px !important;
+.card-img {
+    height: 260px !important;
 }
 
-.news-btn{
-    border:1px solid #56ab2f;
+.news-btn {
+    border: 1px solid #56ab2f;
 }
-.news-btn:hover{
+
+.news-btn:hover {
     background: #56ab2f;
-    color:#fff;
+    color: #fff;
 }
+
 /* ***********************************************************************
                         blog end
 ************************************************************************/
 /* *********************************************************************
                         testimonial start
 ************************************************************************/
-.testimonial{
-    background:url(../img/testmonial-bg.png);
+.testimonial {
+    background: url(../img/testmonial-bg.png);
 }
-.test-card{
-    background:transparent !important;
+
+.test-card {
+    background: transparent !important;
 }
-.card-top{
-    height:60px;
+
+.card-top {
+    height: 60px;
 }
-.test-card{
+
+.test-card {
     /* border-image:url(../img/border.png) 30% round; */
-    border:4px solid #ff0000;
+    border: 4px solid #ff0000;
 }
-.test-card-img{
-    width:100px !important;
-    height:100px !important;
+
+.test-card-img {
+    width: 100px !important;
+    height: 100px !important;
     position: absolute !important;
-    left:35% !important;
-    top:0 !important;
+    left: 35% !important;
+    top: 0 !important;
 
 }
-.test-card-body{
+
+.test-card-body {
     background: #fff;
-    padding-top:20% !important;
-    border:20px solid transparent;
-    border-image:url(../img/border.png) 55% round;
-    border-top:none;
+    padding-top: 20% !important;
+    border: 20px solid transparent;
+    border-image: url(../img/border.png) 55% round;
+    border-top: none;
 }
 
 
@@ -323,70 +386,82 @@ a{text-decoration: none;}
 /* ********************************************************************
                             subscribe start
 ************************************************************************/
-.subscribe{
+.subscribe {
     background: #56ab2f;
 }
-.form input{
-    background:#56ab2f;
-    
+
+.form input {
+    background: #56ab2f;
+
     font-size: 14px;
-    border:1px solid #fff;
-    padding:5px;
-    min-width:250px;
+    border: 1px solid #fff;
+    padding: 5px;
+    min-width: 250px;
 }
-.form input::placeholder{
-    color:#fff;
+
+.form input::placeholder {
+    color: #fff;
 }
-.email:focus{
-	border: 1px solid #fff;
-	outline: none;
+
+.email:focus {
+    border: 1px solid #fff;
+    outline: none;
 }
-.submit-btn{
+
+.submit-btn {
     background: #fff;
-    border:4px solid #9bc887 !important;
-    padding:3px 8px  !important;
+    border: 4px solid #9bc887 !important;
+    padding: 3px 8px !important;
 }
+
 /* ********************************************************************
                          CTa End
 ************************************************************************/
 /* ******************************************************************
                                 footer start
 *******************************************************************/
-.footer{
-    background:#1e1d1d;
+.footer {
+    background: #1e1d1d;
 }
-.footer-card{
-    background:transparent !important;
-    border:none !important;
+
+.footer-card {
+    background: transparent !important;
+    border: none !important;
     display: flex !important;
     justify-content: space-between !important;
-    min-width:250px !important;
-    
-}
-.fa-angle-right{
-    color:#56ab2f;
-}
-.album-1 img{
-    width:80px !important;
-    height:80px !important;
-    padding:4px !important;
-}
-.footer-bottom{
-    border-top:1px solid #56ab2f;
-}
-.social-icon li{
-    padding:5px;
-}
-.social-icon li a{
-    font-size:14px;
-    color:#fff !important;
-    padding:8px 10px !important;
-    border:1px solid #9F9D9D !important;
-    border-radius:50% !important;
+    min-width: 250px !important;
 
 }
-.social-icon li:hover a{
-    color:#56ab2f !important;
+
+.fa-angle-right {
+    color: #56ab2f;
+}
+
+.album-1 img {
+    width: 80px !important;
+    height: 80px !important;
+    padding: 4px !important;
+}
+
+.footer-bottom {
+    border-top: 1px solid #56ab2f;
+}
+
+.social-icon li {
+    padding: 5px;
+}
+
+.social-icon li a {
+    font-size: 14px;
+    color: #fff !important;
+    padding: 8px 10px !important;
+    border: 1px solid #9F9D9D !important;
+    border-radius: 50% !important;
+
+}
+
+.social-icon li:hover a {
+    color: #56ab2f !important;
 }
 
 
@@ -414,17 +489,19 @@ a{text-decoration: none;}
                     about section start
 *******************************************************************/
 
-.ab-link li{
-    padding-left:8px !important;
-}
-.ab-link li::after {
-    content:"/";
-    padding-left:8px
+.ab-link li {
+    padding-left: 8px !important;
 }
 
-.ab-link li a:hover{
-    color:#56ab2f !important;
+.ab-link li:first-child::after {
+    content: "/";
+    padding-left: 8px
 }
+
+.ab-link li a:hover {
+    color: #56ab2f !important;
+}
+
 /* ***************************************************************
                     about section end
 *******************************************************************/
@@ -433,30 +510,81 @@ a{text-decoration: none;}
                        our teacher section start
 ****************************************************************/
 
-.our-teacher .owl-item img{
-   
+.our-teacher .owl-item img {}
+
+.our-teacher .card {
+    border: 1px solid #56ab2f;
 
 }
-.our-teacher .card{
-    border:1px solid #56ab2f;
-    width:50% !important;
-   
+
+.border-top {
+    border-top: 1px solid #56ab2f !important;
+    padding: 10px !important;
 }
 
-.professor{
-    position: relative !important ;
+.text-justify {
+    text-align: justify !important;
 }
-.professor::after{
-    content:"";
-    position: absolute !important;
-    width:218px;
-    height:1px;
+
+.popup-list-t {
+    list-style: none;
+    width: 70px;
+    height: 100%;
     background: #56ab2f;
-    top:30px;
-    left:-20px;
-
+    text-align: center;
+    margin-top: 0px !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
+.popup-list-t li {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border: 1px solid #fff !important;
+    border-radius: 50%;
+    margin-top: 33%;
+    margin-left: 10px;
+    background: transparent;
+}
+
+.popup-list-t li:first-child {
+    margin-top: 0px !important;
+}
+
+.popup-list-t li a {
+    color: #fff;
+    /*padding: 10px;*/
+    /*border-radius: 50%;*/
+}
+
+.teacher-relative-pop {
+    position: relative;
+}
+
+.teacher-popup {
+    position: absolute;
+    right: -80px;
+    top: 0;
+    transition: .5s all ease-out;
+}
+
+.c-image-t {
+    max-height: 250px !important;
+}
+
+.teacher-relative-pop:hover .teacher-popup {
+    right: 0px !important;
+    transition: .5s all ease-in;
+}
+
+.popup-list-t li:hover {
+    background: #fff;
+}
+
+.popup-list-t li:hover a {
+    color: #56ab2f;
+}
 
 /* ***********************************************************
                        our teacher section end
@@ -465,20 +593,21 @@ a{text-decoration: none;}
 /* **********************************************************
                         massage section start
 *************************************************************/
-.message img{
-    float:right !important;
-    padding:10px !important;
-    margin-right:450px;
-    margin-top:70px;
-    height:300px !important;
+.message img {
+    float: right !important;
+    padding: 10px !important;
+    margin-right: 450px;
+    margin-top: 70px;
+    height: 300px !important;
     padding-left: 30px !important;
-   
+
 }
-.message{
+
+.message {
     background: url(../img/face-back.png) no-repeat;
     background-position: right top;
     text-align: justify !important;
-    background-size:59%;
+    background-size: 59%;
 }
 
 
@@ -498,82 +627,97 @@ a{text-decoration: none;}
 ******************************************************* */
 
 /************** corurse  features start ****************  */
-.course-head{
-    position:relative;
-    
+.course-head {
+    position: relative;
+
 }
-.course-head::before{
+
+.course-head::before {
     content: "";
-    position:absolute;
-    width:50px;
-    height:2px;
-    background:#56ab2f;
-    
-}
-.courese-card{
-    border:1px solid #56ab2f;
-}
-.Course-features{
-    background:#56ab2f;
-    padding:10px !important;
-}
-.course-table{
-    text-transform:capitalize;
-}
-.course-icon{
-    color:#56ab2f;
-}
-.course-btn{
-    border:1px solid #56ab2f;
-    padding:10px !important;
-}
-.course-btn:hover{
+    position: absolute;
+    width: 50px;
+    height: 2px;
     background: #56ab2f;
-    color:#fff;
+
 }
-.course-img{
+
+.courese-card {
+    border: 1px solid #56ab2f;
+}
+
+.Course-features {
+    background: #56ab2f;
+    padding: 10px !important;
+}
+
+.course-table {
+    text-transform: capitalize;
+}
+
+.course-icon {
+    color: #56ab2f;
+}
+
+.course-btn {
+    border: 1px solid #56ab2f;
+    padding: 10px !important;
+}
+
+.course-btn:hover {
+    background: #56ab2f;
+    color: #fff;
+}
+
+.course-img {
     padding-left: 15px !important;
 }
-.course-img img{
-    height:410px !important;
+
+.course-img img {
+    height: 410px !important;
 }
-.course-instructor-l li{
-    padding:5px;
-    
+
+.course-instructor-l li {
+    padding: 5px;
+
 }
-.course-instructor-l li a{
-    color:#281816!important;
-    padding:5px 8px;
-    border:1px solid #ddd !important;
+
+.course-instructor-l li a {
+    color: #281816 !important;
+    padding: 5px 8px;
+    border: 1px solid #ddd !important;
     border-radius: 50% !important;
     -webkit-border-radius: 50% !important;
     -moz-border-radius: 50% !important;
     -ms-border-radius: 50% !important;
     -o-border-radius: 50% !important;
 }
-.course-instructor-l li a:hover{
-    color:#56ab2f !important;
+
+.course-instructor-l li a:hover {
+    color: #56ab2f !important;
 }
-.card-col{
-    width:10% !important;
+
+.card-col {
+    width: 10% !important;
 }
 
 
 /* ************course  features end ******************* */
 
 /* ******************* courses comment  start ************** */
-.comment-row{
-    width:70%;
-}
-.mid-row{
-    width:92% !important;
+.comment-row {
+    width: 70%;
 }
 
-.mid-img img{
-   
-    border-top:5px solid #000 !important;
+.mid-row {
+    width: 92% !important;
+}
+
+.mid-img img {
+
+    border-top: 5px solid #000 !important;
     border-left: 5px solid #000 !important;
 }
+
 /* .mid-img {
     background:#000 !important; 
 } */
@@ -582,3 +726,4 @@ a{text-decoration: none;}
 /* **************************************************
 ***********************course details pages end ****************
 ******************************************************* */
+custom.css Displaying custom.css.
