@@ -39,11 +39,14 @@ a {
 }
 
 .t-color {
-    color: #56ab2f;
+    color: #56ab2f !important;
 }
 
 .font-s {
     font-size: 14px !important;
+}
+.active-link{
+    color:#56ab2f !important;
 }
 
 .about,
@@ -586,6 +589,10 @@ a {
     color: #56ab2f;
 }
 
+.our-teacher .owl-carousel .owl-nav .owl-next {
+    position:none !important;
+}
+
 /* ***********************************************************
                        our teacher section end
 ****************************************************************/
@@ -726,4 +733,38 @@ a {
 /* **************************************************
 ***********************course details pages end ****************
 ******************************************************* */
-custom.css Displaying custom.css.
+
+
+/* ********************************************************
+                    contact page start
+************************************************************/
+/* contact details start */
+
+/* contact details end */
+
+.contact-link a{
+    padding:5px;
+    color:rgb(138, 135, 135) !important;
+}
+.name-input,
+.email-input,
+.sub-input,
+.textarea{
+    width:100%;
+    padding:8px !important;
+    margin:5px !important;
+    outline: none !important;
+    border:1px solid #ddd !important;
+    
+}
+.name-input{
+    margin-top: 0 !important;
+}
+.contact-submit{
+    border:1px solid #56ab2f;
+    padding: 5px 20px 5px 20px !important;
+    
+}
+/* ********************************************************
+                    contact page end
+************************************************************/
