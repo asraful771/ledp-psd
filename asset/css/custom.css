@@ -765,6 +765,89 @@ a {
     padding: 5px 20px 5px 20px !important;
     
 }
+/* contact bg */
+.contact-bg{
+    background: #1e1d1d !important;
+    height:100px;
+}
+/* contact bg */
 /* ********************************************************
                     contact page end
 ************************************************************/
+/* ------------------------------------------------------------ */
+
+/* **************************************************
+                    teacher section start 
+*********************************************************/
+.teacher-head::before {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    background: #56ab2f;
+
+}
+.card-social-icon li{
+    padding:8px;
+   
+}
+.card-social-icon a{
+    color:#000 !important;
+    padding:5px 8px !important;
+    border:1px solid #ddd ;
+    border-radius: 50% !important;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    -ms-border-radius: 50% !important;
+    -o-border-radius: 50% !important;
+}
+.card-social-icon li:hover a{
+    color:#56ab2f !important;
+}
+
+.page-item{
+    padding:5px !important;
+   
+}
+.page-item:hover a{
+    color:#56ab2f !important;
+}
+.page-link{
+    padding: 10px 20px !important;
+    color:#676767 !important;
+}
+.page-item:first-child:hover a{
+    background: #56ab2f !important;
+    color:#fff !important; 
+}
+.page-item:last-child:hover a{
+    background: #56ab2f !important;
+    color:#fff !important; 
+}
+/* **************************************************
+                    teacher section end
+*********************************************************/
+
+
+/* ************************************************************
+                    error page start
+*****************************************************************/
+.error-font{
+    font-size:90px;
+}
+
+.error-btn{
+    border:1px solid #56ab2f !important;
+    padding:10px 20px !important;
+}
+.error-btn:hover{
+    background:#56ab2f !important ;
+    color:#fff !important;
+}
+.error-img{
+    height:200px;
+    padding-top:2rem !important;
+}
+/* ***************************************************************
+                    error page end
+******************************************************************* */
